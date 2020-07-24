@@ -1,15 +1,16 @@
 import config.EndPoint;
 import config.TestConfig;
 import org.junit.Test;
-
 import static io.restassured.RestAssured.*;
 
 public class PositiveTests extends TestConfig {
-    @Test()
+    @Test
     public void getAllUsers() {
         given().
-        when().get(EndPoint.USERS).
-        then().statusCode(200);
+        when().
+                get(EndPoint.USERS).
+        then().
+                statusCode(200);
     }
     @Test
     public void createNewUser() {

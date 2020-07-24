@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PositiveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-24T10:02:53" hostname="WIN-GC180E4JFCL" time="0.536">
-  <properties/>
-  <testcase name="getAllUsersWithStatusCode200" classname="PositiveTests" time="0.536"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
